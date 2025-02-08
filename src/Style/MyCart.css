@@ -1,0 +1,344 @@
+.cart-container {
+    width: 70%;
+    max-width: 700px;
+    height: 85vh;
+    background: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.web-head{
+    width: 100%;
+    height: 200vh;
+    /* background-color: #007bff; */
+}
+
+.cart{
+    margin-top: 10px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.cart-container {
+    display: flex;
+    flex-direction: column; /* Adds new items on top */
+    gap: 10px;
+    transition: all 0.3s ease-in-out;
+}
+  
+  .saved-items {
+    display: flex;
+    flex-direction: column; /* Ensures saved items are stacked properly */
+    gap: 10px;
+    margin-top: 10px; /* Space between cart and saved items */
+    transition: all 0.3s ease-in-out;
+}
+  
+  .cart-item, .saved-items div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid #ddd;
+    background: #fff;
+    transition: all 0.3s ease-in-out;
+}
+  
+  .payment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px; /* Pushes it down dynamically */
+    transition: margin-top 0.3s ease-in-out;
+}
+  
+  .hidden {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+  
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.item-details {
+    flex: 3;
+    margin: 5px;
+    line-height: 20px;
+}
+
+.item-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.item-info {
+    font-size: 14px;
+    color: #666;
+}
+
+.item-actions {
+    flex: 1;
+    text-align: right;
+}
+.item-details button{
+    margin: 5px 0;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    gap: 20px;
+}
+.item-actions button {
+    margin: 5px 0;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.item-actions button:hover {
+    background-color: #0056b3;
+}
+
+.quantity {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cart-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.cart-footer button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cart-footer button:hover {
+    background-color: #0056b3;
+}
+
+.remove-btn {
+    background-color: #dc3545;
+}
+
+.remove-btn:hover {
+    background-color: #a71d2a;
+}
+.web-cart{
+    display: flex;
+    gap: 7%;
+    /* background-color: #2bf710; */
+    margin-top: 20px;
+    height: 90vh;
+}
+.cart-item img{
+    width: 53px;
+    height: 53px;
+    margin: 5px;
+    border: #3d3d3d;
+}
+.bag-item{
+    width: 63px;
+    height: 63px;
+    border: 1px solid gainsboro;
+}
+.cart-2{
+    width: 25vw;
+    height: 20vh;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 8px;
+    /* position: absolute; */
+}
+.coupon-section {
+    margin-bottom: 20px;
+    /* position: absolute; */
+}
+.coupon-section label{
+    margin: 10px;
+    color: #666;
+    /* padding: 10px; */
+}
+.coupon-section input[type="text"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 10px;
+}
+.coupon-section button {
+    width: 35%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.coupon-section button:hover {
+    background-color: #0056b3;
+}
+.cart-3{
+    width: 25vw;
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 8px;
+    margin-top: 20px;
+    line-height: 5px;
+}
+
+.cart-3 button{
+    padding: 15px;
+    width: 20vw;
+    margin-left: 35px;
+    background-color: #51f704;
+    color: white;
+    outline: none;
+    border-radius: 8px;
+    border-style: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.cart-3 button:hover{
+    background-color: #0004ff;
+    color: white;
+}
+
+.cart-3{
+    line-height: 25px;
+}
+
+.cart-3 p{
+    padding: 5px;
+    margin: 10px;
+    color: #000;
+}
+
+.cart-3 p:nth-child(3){
+    border-bottom: 1px solid #a1a1a1;
+}
+
+.card{
+    margin-left: 30px;
+}
+
+.card img{
+    width: 64px;
+    height: auto;
+}
+
+.payment{
+    width: 55vw;
+    height: 10vh;
+    margin-top: 3rem;
+    margin-left: 70px;
+    border-radius: 8px;
+    display: flex;
+}
+.payment img{
+    width: 33px;
+    height: 33px;
+    margin: 10px;
+}
+.magic{
+    line-height: 15px;
+}
+.magic p:first-child{
+    color: black;
+}
+.magic p{
+    color:#666;
+}
+.magic-1{
+    width: 54px;
+    height: 54px;
+    border: 1px solid grey;
+    border-radius: 50px;
+    margin: 5px;
+    background-color: #cacaca;
+}
+
+.saved{
+    /* width: 90vw; */
+    /* height: 85vh; */
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    margin-left: 60px;
+    border-radius: 8px;
+}
+.saved h2{
+    margin: 40px;
+    color: black;
+    margin-left: 40px;
+}
+.saved-items{
+    width: 83vw;
+    height: 73vh;
+    margin-left: 40px;
+    border-radius: 8px;
+    display: flex;
+    gap: 50px;
+}
+
+.saved-items img{
+    width: 10vw;
+    height: auto;
+    border: 1px solid rgb(204, 204, 204);
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+.saved-items button{
+    margin: 10px;
+    padding: 10px;
+    width: 18vw;
+    border-radius: 8px;
+    border-style: none;
+    color: #0004ff;
+    font: 1em sans-serif;
+    cursor: pointer;
+    background-color: #b3b3b3;
+
+}
+.saved-items button:hover{
+    color: white;
+    background-color: #0004ff;
+}
+
+.saved-items p{
+    color: #2c2c2c;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

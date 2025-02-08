@@ -1,0 +1,11 @@
+<button class="view-toggle list-view" id="list-view" aria-label="List View">
+        <!-- List View Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+          <rect x="3" y="5" width="4" height="4" fill="#000"></rect>
+          <rect x="9" y="5" width="12" height="4" fill="#000"></rect>
+          <rect x="3" y="11" width="4" height="4" fill="#000"></rect>
+          <rect x="9" y="11" width="12" height="4" fill="#000"></rect>
+          <rect x="3" y="17" width="4" height="4" fill="#000"></rect>
+          <rect x="9" y="17" width="12" height="4" fill="#000"></rect>
+        </svg>
+      </button>

@@ -1,0 +1,119 @@
+.Services{
+    width: 90vw;
+    height: 45vh;
+    margin-left: 5vw;
+    margin-top: 20px;
+    border-radius: 5px;
+    /* background-color: aqua; */
+    /* display: flex; */
+}
+.Services h2{
+    color: #000000;
+}
+.servic{
+    width: 90vw;
+    height: 39vh;
+    /* background-color: rgb(43, 255, 0); */
+    display: flex;
+    gap: 20px;
+}
+.irrrrt{
+    width: 24vw;
+    height: 39vh;
+    background-color: rgb(252, 252, 252);
+    border: 1px solid rgb(218, 217, 217);
+    border-radius: 6px;
+}
+.irrrrt p{
+    margin: 20px;
+    color: #000000;
+    font: 1.1em sans-serif;
+}
+.ser-1{
+    width: 21.5vw;
+    height: 25vh;
+    background-image: url(./industry_hub.jpeg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+}
+.ser-2{
+    width: 21.5vw;
+    height: 25vh;
+    background-image: url(./color_spectrum.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+}
+.ser-3{
+    width: 21.5vw;
+    height: 25vh;
+    background-image: url(./Airplans.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+}
+.ser-4{
+    width: 21.1vw;
+    height: 25vh;
+    background-image: url(./product.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+}
+
+.suppliers{
+    width: 90vw;
+    height: 40vh;
+    margin-left: 5vw;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.suppliers h2{
+    color: #000000;
+}
+.suppliers-container{
+    width: 90vw;
+    height: 32.5vh;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    position: absolute;
+}
+.supplier {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    width: 200px;
+  }
+  
+  .supplier span {
+    font-size: 0.9rem;
+    color: rgb(0, 0, 0);
+    margin-left: 1px;
+  }
+  .supplier img {
+    width: 55px;
+    height: auto;
+    margin-right: 1rem;
+    border-radius: 4px;
+  }
+  .supplier-info {
+    text-align: left;
+  }
+  
+  .supplier-info span {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .supplier-info small {
+    color: rgb(87, 87, 87);
+    font-size: 0.9rem;
+  }

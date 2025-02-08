@@ -1,0 +1,130 @@
+.electro{
+    width: 90vw;
+    height: 70vh;
+    background-color: rgb(235, 235, 235);
+    margin-left: 5vw;
+    margin-top: 40px;
+    /* position: absolute; */
+}
+.side-br{
+    width: 20vw;
+    height: 70vh;
+    /* background-color: bisque; */
+    position: absolute;
+}
+.side-br button{
+    margin: 7px;
+    padding: 10px;
+    width: 250px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color:rgb(235, 235, 235) ;
+}
+.side-br button:hover{
+    background-color: rgba(24, 192, 192, 2);
+    border-radius: 10px;
+}
+.back{
+    width: 40vw;
+    height: 60vh;
+    background-color: aqua;
+    margin-left: 20vw;
+    margin-top: 30px;
+    background-image: url(/depositphotos.jpg);
+    object-fit: contain;
+}
+.topbar{
+    /* background-color: aquamarine; */
+    width: 300px;
+    height: 440px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.imge{
+    display: flex;
+}
+.topbar-1{
+    width: 280px;
+    height: 170px;
+    background-color: rgb(161, 250, 253);
+    margin: 5px;
+    border-radius: 10px;
+}
+.topbar-2{
+    width: 280px;
+    height: 110px;
+    background-color: rgb(245, 134, 8);
+    margin: 5px;
+    border-radius: 10px;
+}
+.topbar-2 p{
+    margin: 10px;
+    font-weight: 600;
+    font: 1.4em sans-serif;
+    color: white;
+}
+.topbar-3{
+    width: 280px;
+    height: 110px;
+    background-color: rgb(83, 245, 8);
+    margin: 5px;
+    border-radius: 10px;
+}
+.topbar-3 p{
+    margin: 10px;
+    font-weight: 600;
+    font: 1.5em sans-serif;
+    color: white;
+}
+.card img{
+    width: 120px;
+    height: 64px;
+    margin: 5px;
+}
+ .card{
+    display: flex; 
+ }
+ .pra p{
+    margin-left: 20px;
+    flex-direction: row;
+    font-size: large;
+    letter-spacing: normal;
+ }
+h2 {
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #555555;
+    margin-bottom: 20px;
+  }
+  .btn {
+    display: block;
+    width: 90%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 15px;
+  }
+  .btn.join {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .btn.join:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn.login {
+    background-color: #f0f0f0;
+    color: #333333;
+  }
+  
+  .btn.login:hover {
+    background-color: #dcdcdc;
+  }

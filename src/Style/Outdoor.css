@@ -1,0 +1,110 @@
+.outdor{
+    width: 90vw;
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 5vw;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+}
+.out{
+    width: 20vw;
+    height: 50vh;
+     background-color: rgb(241, 202, 202);
+     background-image: url('images.jpeg');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-top-left-radius: 5px;
+     border-bottom-left-radius: 5px;
+     align-items: center;
+     justify-content: center;
+}
+.left-panel h3{
+    color: black;
+    margin-left: 10px;
+    padding: 10px;
+    font: 1.6em sans-serif;
+    font-weight: 600;
+}
+.left-panel button{
+    color: black;
+    padding: 7px;
+    width: 100px;
+}
+.left-panel .btn:hover {
+    background-color: #0056b3;
+  }
+.right-panel{ 
+        width: 700px;  
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        flex-grow: 1;
+}
+.product {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding: 10px;
+    border: 1px solid rgb(233, 233, 233);
+    height: 139px;
+    line-height: 15px;
+    transition: transform .5s;
+}
+.product h4 {
+    margin: 10px 0;
+    color: #000000;
+}
+  
+.product p {
+    margin: 0;
+    color: #636363;
+}
+.product img{
+    width: 100px;
+    height: 70px;
+    /* position: absolute; */
+    margin-left: 110px;
+    margin-bottom: 20px;
+}
+.product img:hover{
+    transform: scale(2);
+}
+.pro img{
+    width: 70px;
+}
+
+.gadgets{
+    width: 90vw;
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 5vw;
+    margin-top: 30px;
+    border-radius: 5px;
+    display: flex;
+    border: 1px #636363;
+}
+.gedt{
+   width: 20vw;
+   height: 50vh;
+   background-color: rgb(241, 202, 202);
+   background-image: url('paper_box.webp');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   align-items: center;
+   justify-content: center;
+}
+.pi img{
+    width: 60px;
+    height: auto;
+}
+.pii img{
+  width: 150px;
+  margin-left: 70px;
+}
+.poo img{
+  width: 100px;
+}
