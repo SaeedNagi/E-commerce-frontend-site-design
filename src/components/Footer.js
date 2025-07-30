@@ -27,38 +27,38 @@ export default function Footer() {
                 </div>
                 <p>Best information about the company <br />
                 gies here but now lorem impum is</p>
-                <span><img src={facebook} alt="" /></span>
+                <span><img src={facebook} alt=""/></span>
                 <span><img src={twitterlogo} alt="" /></span>
                 <span><img src={camera} alt="" /></span>
                 <span><img src={youtube} alt="" /></span>
            </div>
            <div className="footer-2">
             <h3>About</h3>
-            <p>About Us</p>
-            <p>Find store</p>
-            <p>Catrgories</p>
-            <p>bugs</p>
+            <li><a href="https://www.yoursite.com/about-us">About Us</a></li>
+            <li><a href="https://www.yoursite.com/store-locator">Find Store</a></li>
+            <li><a href="https://www.yoursite.com/categories">Categories</a></li>
+            <li><a href="https://www.yoursite.com/report-bug">Bugs</a></li>
            </div>
            <div className="footer-3">
            <h3>partnership</h3>
-            <p>About Us</p>
-            <p>Find store</p>
-            <p>Catrgories</p>
-            <p>bugs</p>
+            <li><a href="https://www.yoursite.com/about-us">About Us</a></li>
+            <li><a href="https://www.yoursite.com/store-locator">Find Store</a></li>
+            <li><a href="https://www.yoursite.com/categories">Categories</a></li>
+            <li><a href="https://www.yoursite.com/report-bug">Bugs</a></li>
            </div>
            <div className="footer-4">
            <h3>Information</h3>
-            <p>Help center</p>
-            <p>Money Refund</p>
-            <p>Shipping</p>
-            <p>Contact us</p>
+             <li><a href="https://www.yoursite.com/help-center">Help Center</a></li>
+             <li><a href="https://www.yoursite.com/refund-policy">Money Refund</a></li>
+             <li><a href="https://www.yoursite.com/shipping-info">Shipping</a></li>
+             <li><a href="https://www.yoursite.com/contact">Contact Us</a></li>
            </div>
            <div className="footer-5">
            <h3>For users</h3>
-            <p>Login</p>
-            <p>Register</p>
-            <p>Settings</p>
-            <p>My orders</p>
+            <li><a href="https://www.yoursite.com/login">Login</a></li>
+            <li><a href="https://www.yoursite.com/register">Register</a></li>
+            <li><a href="https://www.yoursite.com/account/settings">Settings</a></li>
+            <li><a href="https://www.yoursite.com/account/orders">My Orders</a></li>
            </div>
            <div className="footer-6">
             <h3>Get app</h3>

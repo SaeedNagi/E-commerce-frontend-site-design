@@ -1,0 +1,19 @@
+{
+  "projects": {
+    "default": "e-commerce-website-c95b8",
+    "alias": "e-commerce-site-6b248"
+  },
+  "targets": {
+    "e-commerce-website-c95b8": {
+      "hosting": {
+        "default": [
+          "e-commerce-site-6b248"
+        ]
+      }
+    }
+  },
+  "etags": {},
+  "hosting": {
+    "site": "e-commerce-website-6b248"
+  }
+}

@@ -48,7 +48,7 @@ function Header() {
         <div className="top-nav">
           <div className="menu-left">
             <span className="menu-icon">☰</span>
-            <Link to="/categore">AllCategories</Link>
+            <Link to="/categore"><span>All Categories</span></Link>
             <span>Categore</span>
             <span>Gift Box</span>
             <span>Projects</span>

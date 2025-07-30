@@ -69,33 +69,66 @@
     font: 1em sans-serif;
     margin-left: 35px;
   }
+
 .footer-2{
     width: 13%;
     height: 40vh;
 }
-.footer-2 p{
+.footer-2 h3{
+  margin: 12px;
+}
+.footer-2 li{
+  list-style: none;
+  padding: 10px;
+}
+.footer-2 a{
     color: rgb(66, 65, 65);
+    text-decoration: none;
 }
 .footer-3{
     width: 13%;
     height: 40vh;
 }
-.footer-3 p{
+.footer-3 h3{
+  margin: 12px;
+}
+.footer-3 li{
+  list-style: none;
+  padding: 10px;
+}
+.footer-3 a{
     color: rgb(66, 65, 65);
+    text-decoration: none;
 }
 .footer-4{
     width: 13%;
     height: 40vh;
 }
-.footer-4 p{
+.footer-4 h3{
+  margin: 12px;
+}
+.footer-4 li{
+  list-style: none;
+  padding: 10px;
+}
+.footer-4 a{
     color: rgb(66, 65, 65);
+    text-decoration: none;
 }
 .footer-5{
     width: 13%;
     height: 40vh;
 }
-.footer-5 p{
+.footer-5 h3{
+  margin: 12px;
+}
+.footer-5 li{
+  list-style: none;
+  padding: 10px;
+}
+.footer-5 a{
     color: rgb(66, 65, 65);
+    text-decoration: none;
 }
 .footer-6{
     width: 25%;
